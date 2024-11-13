@@ -39,8 +39,5 @@ while (continueSearching)
 
     Console.Write("Continue? (y/n): ");
     continueSearching = Console.ReadLine().ToLower() == "y";
-
-   // Console.WriteLine("Thank you for using the Movie List Application!");
-
 }
 Console.WriteLine("Thank you for using the Movie List Application!");
