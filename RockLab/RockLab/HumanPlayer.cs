@@ -22,7 +22,7 @@ namespace RockLab
 
                 if (int.TryParse(userInput, out int choice) && choice >= 0 && choice <= 2)
                 {
-                    return (Roshambo)choice;
+                    return (Roshambo)choice; // returns the player's chosen move
                 }
                 else
                 {

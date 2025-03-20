@@ -8,11 +8,11 @@ namespace RockLab
 {
     internal class RandomPlayer : Player
     {
-        private Random random = new Random();
+        private static Random random = new Random();
 
         public override Roshambo GenerateRoshambo()
         {
-            return (Roshambo)random.Next(0, 3);
+            return (Roshambo)random.Next(0, 3); // picks a random move (rock,paper,scissors)
         }
     }
 }
